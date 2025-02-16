@@ -1,0 +1,85 @@
+/* ヘッダー共通部分 */
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #2C2F33;
+    padding: 10px;
+    font-family: 'M PLUS 1p', sans-serif;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+}
+
+.header-section a {
+    color: #7289DA;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.header-section a:hover {
+    color: white;
+}
+
+/* ページコンテンツ */
+body {
+    margin-top: 60px; /* ヘッダー下の余白 */
+}
+
+/* Wiki セクションのスタイル */
+.wiki-section {
+    padding: 50px 20px;
+    background-color: white;  /* 背景は白に設定 */
+    color: black;  /* 文字色は黒 */
+}
+
+.wiki-title {
+    font-size: 48px;  /* 大きめに設定 */
+    text-align: center;
+    margin-bottom: 40px;
+    color: white;  /* 「Wiki」のタイトルは白 */
+    background-color: #2C2F33;  /* 背景を暗色にして視認性を確保 */
+    padding: 20px;  /* タイトルの周りに余白を加えて目立たせる */
+}
+
+/* 埋め込み部分（リンク） */
+.wiki-entry {
+    background-color: black;  /* 背景は黒 */
+    color: white;  /* 文字色は白 */
+    border-radius: 10px;
+    padding: 20px;
+    margin: 15px 0;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.wiki-entry h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.wiki-entry p {
+    font-size: 18px;
+}
+
+.wiki-entry a {
+    color: #7289DA;
+    text-decoration: none;
+}
+
+.wiki-entry a:hover {
+    color: white;
+}
+
+/* 非公式の説明 */
+.disclaimer {
+    text-align: center;
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.7);
+    margin-top: 30px;
+}
+
+.disclaimer p {
+    font-style: italic;
+}

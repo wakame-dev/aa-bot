@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AA-BOT 非公式サイト</title>
+
+    <!-- M PLUS 1p フォント -->
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@400;600&display=swap" rel="stylesheet">
+    
+    <!-- 外部CSSファイルリンク -->
+    <link rel="stylesheet" href=main.css">
+</head>
+<body>
+
+    <!-- 初期画面 (AA-BOT) -->
+    <div class="intro">
+        <h1>AA-BOT</h1>
+    </div>
+
+    <!-- ヘッダー -->
+    <header>
+        <div class="header-section">
+            <a href="https://aa-wiki.net">ホーム</a>
+        </div>
+        <div class="header-section">
+            <a href="https://aa-wiki.net/wiki">Wiki</a>
+        </div>
+        <div class="header-section">
+            <a href="https://aa-wiki.net/contact">Contact</a>
+        </div>
+    </header>
+
+    <!-- メインコンテンツ -->
+    <div class="main-content">
+        <h1>AA-BOT</h1>
+    </div>
+
+    <!-- 白背景セクション -->
+    <div class="white-background">
+        <h2>ベットロックが欲しい？ならここから！</h2>
+        <a class="btn" href="https://discord.com/oauth2/authorize?client_id=1325891361899151440" target="_blank">Botをインストール</a>
+        <h2>サポートがほしい？ならここに入ろう！</h2>
+        <a class="btn" href="https://discord.gg/aa-bot" target="_blank">参加する</a>
+    </div>
+
+    <!-- 非公式の説明 -->
+    <div class="disclaimer">
+        <p>※これは非公式のサイトです。</p>
+    </div>
+
+    <!-- JavaScript for Animation -->
+    <script>
+        window.addEventListener("load", () => {
+            // 初期画面のスライドイン
+            const intro = document.querySelector('.intro');
+            const mainContent = document.querySelector('.main-content');
+            intro.classList.add('slide-out');
+            mainContent.classList.add('fade-in');
+        });
+    </script>
+</body>
+</html>

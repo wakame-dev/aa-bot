@@ -1,0 +1,85 @@
+/* ヘッダー共通部分 */
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #2C2F33;
+    padding: 10px;
+    font-family: 'M PLUS 1p', sans-serif;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+}
+
+.header-section a {
+    color: #7289DA;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.header-section a:hover {
+    color: white;
+}
+
+/* ページコンテンツ */
+body {
+    margin-top: 60px; /* ヘッダー下の余白 */
+}
+
+/* Contact セクションのスタイル */
+.contact-section {
+    padding: 50px 20px;
+    background-color: white;
+    color: black;
+}
+
+.contact-title {
+    font-size: 48px;
+    text-align: center;
+    margin-bottom: 40px;
+    color: white;
+    background-color: #2C2F33;
+    padding: 20px;
+}
+
+.contact-entry {
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 15px 0;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.contact-entry h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.contact-entry p,
+.contact-entry ul {
+    font-size: 18px;
+}
+
+.contact-entry a {
+    color: #7289DA;
+    text-decoration: none;
+}
+
+.contact-entry a:hover {
+    color: white;
+}
+
+/* 非公式の説明 */
+.disclaimer {
+    text-align: center;
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.7);
+    margin-top: 30px;
+}
+
+.disclaimer p {
+    font-style: italic;
+}
