@@ -1,0 +1,56 @@
+/* 投稿のスタイルを統一 */
+.wiki-post {
+    background-color: #fff; /* 背景色を白 */
+    padding: 20px; /* 内側に余白 */
+    margin-bottom: 20px; /* 下部に余白 */
+    border-radius: 8px; /* 角を丸くする */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* 微細な影をつけて立体感を出す */
+}
+
+.wiki-post h2 {
+    font-size: 24px; /* タイトルフォントサイズ */
+    font-weight: bold; /* 太字にする */
+    color: #333; /* 色をダークグレーに */
+    margin-bottom: 10px; /* 下に少し余白を追加 */
+}
+
+.wiki-post h3 {
+    font-size: 20px; /* サブタイトルフォントサイズ */
+    font-weight: bold;
+    color: #555; /* 色をやや薄く */
+    margin-bottom: 8px;
+}
+
+.wiki-post p {
+    font-size: 16px; /* 本文フォントサイズ */
+    line-height: 1.6; /* 行間を広く */
+    color: #666; /* テキストカラーを薄いグレーに */
+    margin-bottom: 15px; /* 段落の間に余白 */
+}
+
+.wiki-post ul {
+    list-style-type: disc; /* リストマーカーを丸に */
+    margin-left: 20px; /* 左にインデント */
+}
+
+.wiki-post li {
+    font-size: 16px; /* リストアイテムのフォントサイズ */
+    color: #666;
+    margin-bottom: 5px; /* リストアイテム間の余白 */
+}
+
+/* 日付のスタイル */
+.wiki-date {
+    font-size: 14px; /* 日付フォントサイズ */
+    color: #777; /* 薄いグレー */
+    font-style: italic; /* イタリック体 */
+    margin-top: 20px; /* 上に少し余白 */
+}
+
+/* ハイライト付き日付 */
+.wiki-date-highlight {
+    background-color: #f0f0f0; /* 薄いグレー背景 */
+    padding: 5px 10px; /* パディング */
+    border-radius: 5px; /* 丸みをつける */
+    font-weight: bold; /* 太字にする */
+}
